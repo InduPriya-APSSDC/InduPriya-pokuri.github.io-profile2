@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<style>
+#logo{
+    width: 80px;
+    padding: 1px 1px 0px 16px
+}
+.topnav {
+     margin: 24px;
+    float: right;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #22b4cceb;
+  color: black;
+}
+.bacimg{
+background-image: url("css/images/background.jpg");
+    height: 470px;
+}
+#info{
+    background-color: white;
+    width: 80%;
+    margin: 50px 50px 50px 130px;
+    box-shadow: 1px 2px 2px 2px;
+    height: 458px;
+}
+#profimg{
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    margin: 50px 50px 50px 50px;
+height: 333px;
+}
+
+#profimg:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+#details{
+    width: 50%;
+    
+    margin: 80px 20px 20px 20px;
+}
+#column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+.columnone{
+    padding: 7px 30px 10px 124px;
+    float: left;
+    width: 83%;
+    font-size: 25px;
+  
+}
+#skillhead{
+text-align: center;
+    padding: 30px 10px 10px 10px;
+}
+
+.columnskill {
+  float: left;
+  width: 50%;
+  padding: 0px 45px;
+}
+
+
+
+.skills {
+     text-align: right;
+    padding-bottom: 10px;
+    color: black;
+    height: 18px;
+}
+
+.Bootstrap{
+	border-radius: 10px;
+	width: 80%; 
+	border-right:1px solid #fff;
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #f3c062;
+
+}
+.MIT{
+
+	border-radius: 10px;
+	width: 90%; 
+	border-right:1px solid #fff;
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #ef7cd1;
+
+}
+.GIT{
+	border-radius: 10px;
+	width: 90%; 
+	border-right:1px solid #fff;
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #efe67c;
+
+}
+.GPT{
+	border-radius: 10px;
+	width: 90%; 
+	border-right:1px solid #fff;
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #ef8c7c;
+
+}
+
+.html {
+	border-radius: 10px;
+	width: 90%; 
+	border-right:1px solid #fff;
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #3ddc2a;
+}
+.css {
+	border-radius: 10px;
+	width: 80%; 
+	border-right:1px solid #fff;
+	
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #2aabdc;
+}
+.js {
+	border-radius: 10px;
+	width: 65%; 
+	border-right:1px solid #fff;
+	 
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #f44336;}
+.Python {
+	    border-radius: 10px;
+	width: 90%; 
+	border-right:1px solid #fff;
+	 
+animation: animate .5s linear infinite;
+background: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+background-size: 30px 30px;
+background-color: #808080;}
+@keyframes animate{
+0%{
+background-position:0 0;
+}
+100%{
+background-position:30px 0;
+}
+
+
+}
+
+/*skills*/
+.container {
+  width: 100%;
+  border: 1px solid;
+  height: 21px;
+  border-radius: 10px;
+ 
+}
+#aboutdata{
+
+    font-size: 17px;
+    margin: 10px 70px;
+    font-weight: normal;
+}
+
+.columnwhat {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.columnpythonone {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+
+.columnpythonone:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.columnpythontwo {
+ float: left;
+    padding: 0px 24px;
+    font-size: 24px;
+    width: 74%;
+    font-weight: normal;
+}
+
+
+.columnpwaone {
+     float: left;
+    width: 80%;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.columnpwatwo {
+  float: left;
+  width: 52%;
+  padding: 5px;
+}
+
+.columnpwatwo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+#foot{
+opacity: 0.5;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;}
+
+</style>
+<body>
+<div class="bacimg">
+<img id='logo' src='css/images/logoone.png'>
+
+
+<div class="topnav">
+  <a class="active" href="#">Home</a>
+  <a href="#about">About US</a>
+  <a href="#skillpage">Skills</a>
+  <a href="#whatwedo">What We Do</a>
+</div>
+
+
+<div id='info'>
+
+<div class="row">
+  <div class="column">
+    <img id='profimg' src="css/images/photo.jpg" alt="Snow" style="width:100%">
+  </div>
+  
+  <div class="columnone">
+    <h1>Hi, I'm InduPriya Pokuri</h1>
+	<h4>Technical Trainer cum Developer</h4>
+	<h4>Name  &nbsp&nbsp: &nbsp&nbsp InduPriya Pokuri</h4>
+<h4><Address&nbsp&nbsp :&nbsp&nbspPamuru/h4>
+<h4>Mobile No &nbsp&nbsp: &nbsp&nbsp+91 7780468810</h4>
+<h4>E-Mail &nbsp&nbsp: &nbsp&nbsp<a href="mailto: indupriya.p@apssdc.in"> indupriya.p@apssdc.in</a>.</h4>
+	  
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<br><br><br><br><br><br><br>
+
+<div id='about' style=' background-color: lightblue'>
+<br>
+<p><h1 style='text-align: center;'>About Us<h1></p>
+
+<div id='aboutdata'>
+<h3>Technical Skills</h3>
+							<hr>
+						<ul>
+
+							<li>Problem Solving and programming using Python</li>
+							<li>Source Code Management using GIT</li>
+							<li>Web Development With Python</li>
+							<li>Progressive Web Applications</li>
+						</ul>
+
+
+							<h3>Work Experience </h3>
+							<hr>
+
+
+
+						<ul>
+								
+
+								<li>Working as <b>“Technical Skill Trainer “ </b> in <b>“Andhra Pradesh State Skill Development Corporation” </b>and having teaching experience of 2+  years in   Python, PWA ,MIT Application development .</li>
+
+								<li>Having 2+ Years of Experience in training students in engineering colleges throughout AP on different technologies</li>
+
+								<li>I have trained more than 2500 students and guided them to develop different type applications.</li>											
+
+								<li>I am routing for these  AP Universities (AU ,Gitam, SPMVV,Vignan, etc..,) for certified coursera certifications by students</li>
+
+
+						</ul>
+
+
+						<h3>Certifications</h3>
+
+						<hr>
+
+						<ul>
+
+
+<li>I completed <b>"Introduction to Python"</b> certification course in <b> " Udemy "</b></li>
+							
+							<li>I completed <b>“Python for Everybody”</b> certification course in <b>“Coursera”.</b></li>
+
+							<li>I completed <b>“Full Stack Web developer Nanodegree” </b> certification course in <b>“Udacity”.</b></li>
+						</ul>
+
+						<h3>Educational Details</h3>
+							<hr>
+
+
+							<ul>
+							<li><b>"PostGraduation"</b>(MCA) from "St.Ann's College of Engineering & Technology",Chirala(2014-17) </li>
+							<li><b>"Graduation"</b></li>(Bsc(stat)) from "Bharathi Degree College",Chirala(2011-14)</li>
+							<li><b>"Intermediate" </b>from "Sri Vani Jr College",Chirala(2009-11)</li>
+							<li><b>"SSC" </b>from "KGM Girls High School"(2009)</li>
+</ul>
+
+
+
+
+<br>
+
+
+						
+
+</div>
+
+
+</div>
+
+
+
+
+<div  id='skillpage' style='    background-color: #f5f5d1;height:435px;'>
+<p><h1 id='skillhead'>My Skills</h1></p>
+
+<div class="rowskill">
+  <div class="columnskill">
+    <section id='skill' class='wrapper skills fade-up'>
+		<div class="inner">
+		<!--<h1 id='skillone'>My Skills</h1>-->
+
+<p style='text-align: left;'>HTML5</p>
+<div class="container">
+<div class="skills html">90%</div>
+</div>
+
+<p style='text-align: left;'>CSS3</p>
+<div class="container">
+<div class="skills css">80%</div>
+</div>
+
+
+<p style='text-align: left;'>Bootstrap</p>
+<div class="container">
+<div class="skills Bootstrap">80%</div>
+</div>
+
+<p style='text-align: left;'>JavaScript</p>
+<div class="container">
+<div class="skills js">65%</div>
+</div>
+
+</div>
+	</section>
+
+
+  </div>
+  <div class="columnskill">
+    <p>Python</p>
+<div class="container">
+<div class="skills Python">90%</div>
+</div>
+
+<p>Raptor & MIT App Inventor</p>
+<div class="container">
+<div class="skills MIT">90%</div>
+</div>
+
+
+<p>Source code management sing Git and Github</p>
+<div class="container">
+<div class="skills GIT">90%</div>
+</div>
+
+
+<p>Google Productivity Tools</p>
+<div class="container">
+<div class="skills GPT">90%</div>
+</div>
+  </div>
+</div>
+</div>
+
+
+<br><br>
+
+<div id='whatwedo'>
+		<p><h1 style='    text-align: center;'>What We Do<h1><p>
+<hr>
+<div class="row">
+  <div class="columnwhat">
+    <img src="css/images/ws1.jpg" alt="Snow" style="width:100%;height: 100%;">
+  </div>
+  <div class="columnwhat">
+    <img src="css/images/ws2.jpg" alt="Forest" style="width:100%;height: 100%;">
+  </div>
+  <div class="columnwhat">
+    <img src="css/images/ws4.jpg" alt="Mountains" style="width:100%;height: 100%;">
+  </div>
+</div>
+<div class="row">
+  <div class="columnwhat">
+    <img src="css/images/ws3.jpg" alt="Snow" style="width:100%;height: 100%;">
+  </div>
+  <div class="columnwhat">
+    <img src="css/images/ws5.jpg" alt="Forest" style="width:100%;height: 100%;">
+  </div>
+  <div class="columnwhat">
+    <img src="css/images/spmvv.jpg" alt="Mountains" style="width:100%;height: 100%;">
+  </div>
+</div>
+
+
+<br>
+
+<div class="row" style='    margin: 10px 50px 10px 100px;'>
+  <div class="columnpythonone">
+    <img src="css/images/python.jpg" alt="Snow" style="width:100%;">
+  </div>
+  <div class="columnpythontwo">
+    <li>I am routing for these  AP Universities (AU ,Gitam, SPMVV,Vignan, etc..,) for certified coursera certifications by students</li>
+
+<li>Attended number of basics and Advanced workshops in different colleges and Universities </li>
+<li>Good Feed back in all the colleges which I attended.</li>
+  </div>
+
+</div>
+<br>
+
+<div class="row" style='    margin: 10px 50px 10px 100px'>
+  <div class="columnpwaone">
+   <li>2017 - 2019  Working in PWA and MIT workshops</li>
+   <li>PWA-Design Progressive Application Throuh HTML5,CSS3,Javascript and Json</li>
+   <li>MIT-Develop Different types of Apps using blocks</li>
+  </div>
+  <div class="columnpwatwo">
+    <img src="css/images/pwa.jpg" alt="Forest" style="width:100%;">
+  </div>
+
+</div>
+
+</div>
+<hr>
+<footer>
+  <p id='foot'>Thanks For Watching My Profile.</p>
+  
+</footer>
+<hr>
+</body>
